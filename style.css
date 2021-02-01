@@ -1,0 +1,48 @@
+/* colors
+
+pink
+#d53266 
+grey
+#888888
+dark
+#383838
+*/
+
+body {
+  font-family: ;
+}
+.fa-envelope {
+  width: 18px;
+  height: 16px;
+  color: gray;
+}
+
+.search-head {
+  background-color: #d53266;
+  background-image: url(/assets/—Pngtree—online\ store\ sending\ package\ illustration_5442558.png);
+  background-size: 17%;
+  background-repeat: no-repeat;
+}
+
+.arrows {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.arrow-left,
+.arrow-right {
+  background-color: #888888;
+  color: #d53266;
+  text-align: center;
+  width: 35px;
+}
+
+.fa-chevron-circle-left,
+.fa-chevron-circle-right {
+  font-size: 30px;
+  background-color: #d53266;
+  border: #888888;
+  border-radius: 50%;
+  color: #ffff;
+}

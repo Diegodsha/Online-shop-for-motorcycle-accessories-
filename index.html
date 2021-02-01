@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <title>MotorShop</title>
+  </head>
+  <body>
+    <!-- icons
+    plus : <i class="far fa-plus-square"></i> 
+helmet: https://cdn3.iconfinder.com/data/icons/bold-f1/512/F1_3-512.png
+gloves: <i class="fas fa-mitten"></i>
+store: <i class="fas fa-store"></i>
+home: <i class="fas fa-home"></i>
+colections: <i class="far fa-clone"></i>
+shop: <i class="fas fa-shopping-cart"></i>
+moto: <i class="fas fa-motorcycle"></i>
+mail: <i class="fas fa-envelope"></i>-->
+    <div class="container-fluid main-cont g-0">
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3 px-lg-5">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><i class="fas fa-motorcycle p-2"></i>MOTORSHOP</a
+            >
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarContent"
+              aria-controls="navbarContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item pe-3">
+                  <a class="nav-link d-flex" aria-current="page" href="#"
+                    ><i class="fas fa-home pe-3"></i>HOME</a
+                  >
+                </li>
+                <li class="nav-item pe-3">
+                  <a class="nav-link d-flex" href="#"
+                    ><i class="far fa-clone pe-3"></i>COLLECTIONS</a
+                  >
+                </li>
+                <li class="nav-item pe-3">
+                  <a class="nav-link d-flex" href="#"
+                    ><i class="fas fa-shopping-cart pe-3"></i>PURCHASE LIST</a
+                  >
+                </li>
+                <li class="nav-item d-none d-md-block">
+                  <a href="#" class="btn post-btn btn-danger" type="button"
+                    >POST AN AD</a
+                  >
+                </li>
+              </ul>
+              <div class="user-cont d-none d-lg-block">
+                <i class="fas fa-envelope"></i>
+                <span class="text-secondary px-1">Jhon Doe</span>
+                <img
+                  src="/assets/persona2.jpg"
+                  alt="Jhon"
+                  width="50px"
+                  height="50px"
+                  class="rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="row justify-content-center search-head text-white py-4">
+        <div class="col-9 text-center">
+          <h1>MOTORSHOP</h1>
+          <p>Buying and Selling couldn't be Simpler than this!</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-9 col-md-3 d-flex justify-content-center">
+            <form class="w-100">
+              <select class="form-item department rounded-0 d-block w-100">
+                <option>All Departments</option>
+                <option>Helmets</option>
+                <option>Boots</option>
+                <option>Gloves</option>
+                <option>Jackets</option>
+              </select>
+            </form>
+          </div>
+          <div class="col-9 col-md-3">
+            <input
+              type="text"
+              required
+              class="w-100 rounded-0 border-0"
+              placeholder="What do you search for?"
+            />
+          </div>
+          <div class="col-9 col-md-3">
+            <input
+              type="text"
+              required
+              class="w-100 rounded-0 border-0"
+              placeholder="Location"
+            />
+          </div>
+          <div class="col-9 col-md-2">
+            <button
+              type="submit"
+              class="search-btn btn btn-dark rounded-0 px-3 w-100 rounded-0 border-0"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </section>
+      <main class="container-fluid">
+        <div class="row hot-ads">
+          <div class="col-1 d-flex align-items-center">
+            <i class="fas fa-chevron-circle-left"></i>
+          </div>
+          <div class="col-9">
+            <div class="row">
+              <div class="col-12">HOT ADS</div>
+              <div class="col-12">
+                <div class="hot-ad-img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="/assets/monoalpine.webp"
+                    alt="monoalpine"
+                  />
+                  <div class="arrows d-flex">
+                    <div class="arrow-left">
+                      <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="arrow-right">
+                      <i class="fas fa-chevron-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1 d-flex align-items-center">
+            <i class="fas fa-chevron-circle-right"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 d-flex">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/bold-f1/512/F1_3-512.png"
+              alt="helmet"
+              width="20px"
+              height="20px"
+            />
+            <h5>Helmets</h5>
+            <span>(Integral, Motocross, Folding)</span>
+          </div>
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+      </main>
+      <footer>
+        <div class="row"></div>
+        <div class="row"></div>
+      </footer>
+      <!-- <section class="text-white text-center search bg-secondary">
+        <h1>MOTORSHOP</h1>
+        <p>Buying and Selling couldn't be Simpler than this!</p>
+        <form
+          class="align-items-center d-flex flex-column flex-md-row flex-wrap justify-content-center mt-5 mx-4 mx-md-0"
+          action="./search-results.html"
+        >
+          <select class="form-item department rounded-0 d-block">
+              <option>All Departments</option>
+            <option>Helmets</option>
+            <option>Boots</option>
+            <option>Gloves</option>
+            <option>Jackets</option>
+        </select>
+
+          <input
+          type="text"
+            class="d-block d-md-inline-block search-input rounded-0"
+            placeholder="What do you search for?"
+          />
+          <input
+            type="text"
+            class="d-block d-md-inline-block search-input rounded-0"
+            placeholder="Where are you from?"
+            />
+            <button type="submit" class="search-btn btn btn-dark rounded-0 px-3">
+                Search
+          </button>
+        </form>
+      </section> -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
