@@ -8,13 +8,71 @@ dark
 #383838
 */
 
-body {
-  font-family: ;
+@font-face {
+  font-family: gothamBold;
+  src: url(fonts/Gotham\ Bold\ Regular.ttf);
 }
-.fa-envelope {
+
+@font-face {
+  font-family: gothamRounded;
+  src: url(fonts/Gotham\ Rounded\ Light.otf);
+}
+
+@font-face {
+  font-family: helveticaLigth;
+  src: url(fonts/HelveticaNeue\ Light.ttf);
+}
+
+@font-face {
+  font-family: helveticaMedium;
+  src: url(fonts/HelveticaNeue\ Medium.ttf);
+}
+
+@font-face {
+  font-family: helveticaBold;
+  src: url(fonts/HelveticaNeueBd.ttf);
+}
+
+.header {
+  z-index: 10;
+  font-family: helveticaMedium, sans-serif;
+}
+
+.search-head .fa-envelope {
   width: 18px;
   height: 16px;
   color: gray;
+}
+
+.helvetica-ligth {
+  font-family: helveticaLigth, sans-serif;
+}
+
+.helvetica-bold {
+  font-family: helveticaBold, sans-serif;
+}
+
+.helvetica-Med {
+  font-family: helveticaMedium, sans-serif;
+}
+
+.btn-pink {
+  background-color: #d53266 !important;
+}
+.text-pink {
+  color: #d53266;
+}
+
+.store-name {
+  font-size: 40px;
+}
+
+.form-item {
+  height: 36px;
+}
+
+.purchase {
+  white-space: nowrap;
 }
 
 .search-head {
@@ -22,6 +80,8 @@ body {
   background-image: url(/assets/—Pngtree—online\ store\ sending\ package\ illustration_5442558.png);
   background-size: 17%;
   background-repeat: no-repeat;
+  font-family: helveticaLigth, sans-serif;
+  min-height: 300px;
 }
 
 .arrows {
@@ -42,7 +102,6 @@ body {
 .fa-chevron-circle-right {
   font-size: 30px;
   background-color: #d53266;
-  border: #888888;
   border-radius: 50%;
   color: #ffff;
 }

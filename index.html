@@ -32,11 +32,11 @@ shop: <i class="fas fa-shopping-cart"></i>
 moto: <i class="fas fa-motorcycle"></i>
 mail: <i class="fas fa-envelope"></i>-->
     <div class="container-fluid main-cont g-0">
-      <header>
+      <header class="position-sticky top-0 header">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3 px-lg-5">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"
-              ><i class="fas fa-motorcycle p-2"></i>MOTORSHOP</a
+            <a class="navbar-brand me-1" href="#"
+              ><i class="fas fa-motorcycle p-2 fw-bold"></i>MOTORSHOP</a
             >
 
             <button
@@ -51,30 +51,36 @@ mail: <i class="fas fa-envelope"></i>-->
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item pe-3">
-                  <a class="nav-link d-flex" aria-current="page" href="#"
-                    ><i class="fas fa-home pe-3"></i>HOME</a
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item pe-2">
+                  <a
+                    class="nav-link d-flex text-pink"
+                    aria-current="page"
+                    href="#"
+                    ><i class="fas fa-home pe-2 text-pink"></i>HOME</a
                   >
                 </li>
                 <li class="nav-item pe-3">
                   <a class="nav-link d-flex" href="#"
-                    ><i class="far fa-clone pe-3"></i>COLLECTIONS</a
+                    ><i class="far fa-clone pe-2"></i>COLLECTIONS</a
                   >
                 </li>
-                <li class="nav-item pe-3">
-                  <a class="nav-link d-flex" href="#"
-                    ><i class="fas fa-shopping-cart pe-3"></i>PURCHASE LIST</a
+                <li class="nav-item">
+                  <a class="nav-link d-flex purchase" href="#"
+                    ><i class="fas fa-shopping-cart pe-2"></i>PURCHASE LIST</a
                   >
                 </li>
                 <li class="nav-item d-none d-md-block">
-                  <a href="#" class="btn post-btn btn-danger" type="button"
+                  <a
+                    href="#"
+                    class="btn post-btn btn-pink text-white"
+                    type="button"
                     >POST AN AD</a
                   >
                 </li>
               </ul>
               <div class="user-cont d-none d-lg-block">
-                <i class="fas fa-envelope"></i>
+                <i class="fas fa-envelope fs-4"></i>
                 <span class="text-secondary px-1">Jhon Doe</span>
                 <img
                   src="/assets/persona2.jpg"
@@ -88,13 +94,17 @@ mail: <i class="fas fa-envelope"></i>-->
           </div>
         </nav>
       </header>
-      <section class="row justify-content-center search-head text-white py-4">
+      <section
+        class="row container-fluid m-0 justify-content-center search-head text-white py-4"
+      >
         <div class="col-9 text-center">
-          <h1>MOTORSHOP</h1>
+          <h1 class="fw-bold store-name">MOTORSHOP</h1>
           <p>Buying and Selling couldn't be Simpler than this!</p>
         </div>
         <div class="row justify-content-center">
-          <div class="col-9 col-md-3 d-flex justify-content-center">
+          <div
+            class="col-9 col-md-3 d-flex justify-content-center p-0 form-item me-1"
+          >
             <form class="w-100">
               <select class="form-item department rounded-0 d-block w-100">
                 <option>All Departments</option>
@@ -102,26 +112,27 @@ mail: <i class="fas fa-envelope"></i>-->
                 <option>Boots</option>
                 <option>Gloves</option>
                 <option>Jackets</option>
+                <option>Other</option>
               </select>
             </form>
           </div>
-          <div class="col-9 col-md-3">
+          <div class="col-9 col-md-3 p-0 me-1">
             <input
               type="text"
               required
-              class="w-100 rounded-0 border-0"
+              class="w-100 rounded-0 border form-item"
               placeholder="What do you search for?"
             />
           </div>
-          <div class="col-9 col-md-3">
+          <div class="col-9 col-md-3 p-0 me-1">
             <input
               type="text"
               required
-              class="w-100 rounded-0 border-0"
+              class="w-100 rounded-0 border form-item"
               placeholder="Location"
             />
           </div>
-          <div class="col-9 col-md-2">
+          <div class="col-9 col-md-2 p-0 me-1">
             <button
               type="submit"
               class="search-btn btn btn-dark rounded-0 px-3 w-100 rounded-0 border-0"
@@ -132,14 +143,14 @@ mail: <i class="fas fa-envelope"></i>-->
         </div>
       </section>
       <main class="container-fluid">
-        <div class="row hot-ads">
+        <div class="row hot-ads pt-3 pb-3 container-fluid m-0">
           <div class="col-1 d-flex align-items-center">
-            <i class="fas fa-chevron-circle-left"></i>
+            <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
           </div>
-          <div class="col-9">
+          <div class="col-10">
             <div class="row">
-              <div class="col-12">HOT ADS</div>
-              <div class="col-12">
+              <div class="col-12 helvetica-Med text-muted">HOT ADS</div>
+              <div class="col-6">
                 <div class="hot-ad-img position-relative">
                   <img
                     class="img-fluid"
@@ -148,21 +159,50 @@ mail: <i class="fas fa-envelope"></i>-->
                   />
                   <div class="arrows d-flex">
                     <div class="arrow-left">
-                      <i class="fas fa-chevron-left"></i>
+                      <a href="#"
+                        ><i class="fas fa-chevron-left text-pink"></i
+                      ></a>
                     </div>
                     <div class="arrow-right">
-                      <i class="fas fa-chevron-right"></i>
+                      <a href="#"
+                        ><i class="fas fa-chevron-right text-pink"></i
+                      ></a>
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="col-6">
+                <h6 class="text-pink .helvetica-Med text-muted">
+                  Leather suit Alpinestars Missile Tech-air Black.
+                </h6>
+                <p class="helvetica-Med text-muted mb-1">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                  soluta nobis optio autem
+                </p>
+                <p class="helvetica-ligth text-muted mb-1">
+                  <span class="helvetica-Med text-muted">BY:</span> Jhon Doe
+                </p>
+                <p class="helvetica-ligth text-muted mb-1">
+                  <span class="helvetica-Med text-muted">Location:</span> San
+                  Francisco, Ca , US
+                </p>
+
+                <a
+                  href="#"
+                  class="btn btn-pink btn-sm text-white helvetica-Med mb-1"
+                  >1,099$</a
+                >
+                <a href="#" class="btn btn-pink btn-sm text-white helvetica-Med"
+                  ><i class="fas fa-shopping-cart"></i> Purchase details</a
+                >
+              </div>
             </div>
           </div>
           <div class="col-1 d-flex align-items-center">
-            <i class="fas fa-chevron-circle-right"></i>
+            <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
           </div>
         </div>
-        <div class="row">
+        <div class="row container-fluid m-0">
           <div class="col-12 d-flex">
             <img
               src="https://cdn3.iconfinder.com/data/icons/bold-f1/512/F1_3-512.png"
