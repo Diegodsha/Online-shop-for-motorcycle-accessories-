@@ -35,10 +35,10 @@ shoe: <i class="fas fa-shoe-prints"></i>
 shield: <i class="fas fa-shield-alt"></i>-->
 
     <div class="container-fluid main-cont g-0">
-      <header class="position-sticky top-0 header">
+      <header class="position-sticky top-0 header helvetica-Med">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3 px-lg-5">
           <div class="container-fluid">
-            <a class="navbar-brand me-1" href="#"
+            <a class="navbar-brand me-1 helvetica-bold " href="#"
               ><i class="fas fa-motorcycle ps-0 p-2 fw-bold"></i>MOTORSHOP</a
             >
 
@@ -83,15 +83,19 @@ shield: <i class="fas fa-shield-alt"></i>-->
                 </li>
               </ul>
               <div class="user-cont d-none d-lg-block">
-                <i class="fas fa-envelope "></i>
+                <a href="#" class="text-decoration-none">
+                    <i class="fas fa-envelope "></i>
+                </a>
                 <span class="text-secondary px-1">Jhon Doe</span>
-                <img
-                  src="assets/persona2.jpg"
-                  alt="Jhon"
-                  width="50px"
-                  height="50px"
-                  class="rounded-circle"
-                />
+                <a href="#">
+                    <img
+                      src="assets/persona2.jpg"
+                      alt="Jhon"
+                      width="50px"
+                      height="50px"
+                      class="rounded-circle"
+                    />
+                </a>
               </div>
             </div>
           </div>
@@ -101,14 +105,14 @@ shield: <i class="fas fa-shield-alt"></i>-->
         class="row container-fluid m-0 justify-content-center search-head text-white py-4"
       >
         <div class="col-9 text-center">
-          <h1 class="fw-bold store-name">MOTORSHOP</h1>
+          <h1 class="fw-bold store-name helvetica-bold">MOTORSHOP</h1>
           <p>Buying and Selling couldn't be Simpler than this!</p>
         </div>
         <div class="row justify-content-center">
           <div
             class="col-9 col-md-3 d-flex justify-content-center p-0 form-item me-1"
           >
-            <form class="w-100">
+            <form class="w-100" action="search-page.html" >
               <select class="form-item department rounded-0 d-block w-100">
                 <option>All Departments</option>
                 <option>Helmets</option>
@@ -117,19 +121,22 @@ shield: <i class="fas fa-shield-alt"></i>-->
                 <option>Jackets</option>
                 <option>Other</option>
               </select>
-            </form>
-          </div>
-          <div class="col-9 col-md-3 p-0 me-1">
-            <input
-              type="text"
+            </div>
+            <div class="col-9 col-md-3 p-0 me-1">
+                <input
+                type="text"
+                minlength="5"
+                maxlength="15"
               required
               class="w-100 rounded-0 border form-item"
               placeholder="What do you search for?"
             />
-          </div>
+        </div>
           <div class="col-9 col-md-3 p-0 me-1">
             <input
-              type="text"
+            type="text"
+            minlength="5"
+                maxlength="15"
               required
               class="w-100 rounded-0 border form-item"
               placeholder="Location"
@@ -142,11 +149,12 @@ shield: <i class="fas fa-shield-alt"></i>-->
             >
               Search
             </button>
-          </div>
+        </form>
+        </div>
         </div>
       </section>
       <main class="container-fluid">
-        <div class="row hot-ads pt-3 pb-3 container-fluid m-0 p-0">
+        <div class="row hot-ads pt-3 mb-5 container-fluid m-0 p-0">
            
           <!-- <div class="col-1 d-flex align-items-center">
             <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
@@ -440,16 +448,15 @@ shield: <i class="fas fa-shield-alt"></i>-->
           <!-- <div class="col-1 d-flex align-items-center">
             <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
           </div> -->
-        </div>
-        <!-- helmet -->
-        <div class="row container-fluid m-0 mb-5">
-          <div class="col-12 d-flex section-title text-muted helvetica-Med pb-3">
-            <img
-              src="https://cdn3.iconfinder.com/data/icons/bold-f1/512/F1_3-512.png"
-              alt="helmet"
-              width="20px"
-              height="20px"
-              class="me-1"
+          <!-- helmet -->
+          <div class="row container-fluid m-0 mb-5">
+              <div class="col-12 d-flex section-title text-muted helvetica-Med pb-3">
+                  <img
+                  src="https://cdn3.iconfinder.com/data/icons/bold-f1/512/F1_3-512.png"
+                  alt="helmet"
+                  width="20px"
+                  height="20px"
+                  class="me-1"
             />
             <h5 class="text-muted me-1">Helmets </h5>
             <span class="helvetica-ligth">(Integral, Motocross, Folding)</span>
@@ -459,7 +466,7 @@ shield: <i class="fas fa-shield-alt"></i>-->
                   <a href="#" class="carousel-left-arrow position-absolute top-50 d-none d-md-block text-dark">
                     <i
                     class="fas fa-chevron-left "
-                  ></i>
+                    ></i>
                   
                   </a>
               </div>
@@ -471,10 +478,10 @@ shield: <i class="fas fa-shield-alt"></i>-->
                       alt="helmet"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                      <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</a></h5>
                       <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
                       <p class="card-text helvetica-ligth text-muted mb-1">
-                        <span class="helvetica-Med text-muted"
+                          <span class="helvetica-Med text-muted"
                           >FROM:</span
                         >
                         San Francisco, US
@@ -491,21 +498,21 @@ shield: <i class="fas fa-shield-alt"></i>-->
               </div>
               </div>
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
-                <div class="card">
+                  <div class="card">
                     <img
                       src="assets/scorpionhelmet.webp"
                       class="card-img-top img-fluid"
                       alt="helmet"
-                    />
+                      />
                     <div class="card-body">
-                      <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                      <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</a></h5>
                       <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
                       <p class="card-text helvetica-ligth text-muted mb-1">
                         <span class="helvetica-Med text-muted"
-                          >FROM:</span
+                        >FROM:</span
                         >
                         San Francisco, US
-                      </p>
+                    </p>
                       <div class="card-shop">
                           <a data-bs-container="body"
                           data-bs-placement="top"
@@ -516,7 +523,7 @@ shield: <i class="fas fa-shield-alt"></i>-->
                       </div>
                     </div>
               </div>
-              </div>
+            </div>
               <div class=" col-12 col-sm-6 col-md-4 col-lg-3 my-4">
                 <div class="card" >
                     <img
@@ -525,10 +532,10 @@ shield: <i class="fas fa-shield-alt"></i>-->
                       alt="helmet"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                        <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</a></h5>
                       <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
                       <p class="card-text helvetica-ligth text-muted mb-1">
-                        <span class="helvetica-Med text-muted"
+                          <span class="helvetica-Med text-muted"
                           >FROM:</span
                         >
                         San Francisco, US
@@ -552,7 +559,7 @@ shield: <i class="fas fa-shield-alt"></i>-->
                       alt="helmet"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                      <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</a></h5>
                       <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
                       <p class="card-text helvetica-ligth text-muted mb-1">
                         <span class="helvetica-Med text-muted"
@@ -572,11 +579,11 @@ shield: <i class="fas fa-shield-alt"></i>-->
               </div>
               </div>
              
-                  <div class="carousel-right-arrow">
+              <div class="carousel-right-arrow">
                       <a class="carousel-right-arrow position-absolute top-50 d-none d-md-block " href="#">
                           <i class="fas fa-chevron-right text-dark "></i>
                         </a>
-                  </div>
+                    </div>
               
           </div>
         </div>
@@ -594,17 +601,17 @@ shield: <i class="fas fa-shield-alt"></i>-->
                       class="fas fa-chevron-left "
                     ></i>
                     
-                    </a>
-                </div>
+                </a>
+            </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
-                  <div class="card">
+                    <div class="card">
                       <img
                         src="assets/boots.jpg"
                         class="card-img-top img-fluid"
                         alt="boots"
                       />
                       <div class="card-body">
-                        <h5 class="card-title">Joe Rocket Balistic Touring Boots</h5>
+                          <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Joe Rocket Balistic Touring Boots</a></h5>
                         <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
                         <p class="card-text helvetica-ligth text-muted mb-1">
                           <span class="helvetica-Med text-muted"
@@ -626,12 +633,12 @@ shield: <i class="fas fa-shield-alt"></i>-->
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
                   <div class="card">
                       <img
-                        src="assets/boots.jpg"
+                      src="assets/boots.jpg"
                         class="card-img-top img-fluid"
                         alt="boots"
                       />
                       <div class="card-body">
-                        <h5 class="card-title">Joe Rocket Balistic Touring Boots</h5>
+                        <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Joe Rocket Balistic Touring Boots</a></h5>
                         <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
                         <p class="card-text helvetica-ligth text-muted mb-1">
                           <span class="helvetica-Med text-muted"
@@ -649,7 +656,7 @@ shield: <i class="fas fa-shield-alt"></i>-->
                         </div>
                       </div>
                 </div>
-                </div>
+            </div>
                 <div class=" col-12 col-sm-6 col-md-4 col-lg-3 my-4">
                   <div class="card" >
                       <img
@@ -658,7 +665,7 @@ shield: <i class="fas fa-shield-alt"></i>-->
                         alt="boots"
                       />
                       <div class="card-body">
-                        <h5 class="card-title">Joe Rocket Balistic Touring Boots</h5>
+                        <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Joe Rocket Balistic Touring Boots</a></h5>
                         <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
                         <p class="card-text helvetica-ligth text-muted mb-1">
                           <span class="helvetica-Med text-muted"
@@ -674,7 +681,7 @@ shield: <i class="fas fa-shield-alt"></i>-->
                             data-bs-content="Add to Collection, Send Message, More details" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
                             <a href="#" class="card-link text-pink text-decoration-none">$750</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 </div>
                 <div class=" col-12 col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block my-4 ">
@@ -683,12 +690,12 @@ shield: <i class="fas fa-shield-alt"></i>-->
                         src="assets/boots.jpg"
                         class="card-img-top img-fluid"
                         alt="boots"
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Joe Rocket Balistic Touring Boots</h5>
+                        />
+                        <div class="card-body">
+                        <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Joe Rocket Balistic Touring Boots</a></h5>
                         <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
                         <p class="card-text helvetica-ligth text-muted mb-1">
-                          <span class="helvetica-Med text-muted"
+                            <span class="helvetica-Med text-muted"
                             >FROM:</span
                           >
                           San Francisco, US
@@ -701,24 +708,24 @@ shield: <i class="fas fa-shield-alt"></i>-->
                             data-bs-content="Add to Collection, Send Message, More details" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
                             <a href="#" class="card-link text-pink text-decoration-none">$950</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 </div>
-               
+                
                     <div class="carousel-right-arrow">
                         <a class="carousel-right-arrow position-absolute top-50 d-none d-md-block " href="#">
                             <i class="fas fa-chevron-right text-dark "></i>
                           </a>
                     </div>
                 
-            </div>
+                </div>
           </div>
           
-        <!-- jackets -->
-        <div class="row container-fluid m-0 mb-5">
+          <!-- jackets -->
+        <div class="row container-fluid m-0 pb-5">
             <div class="col-12 d-flex section-title text-muted helvetica-Med pb-3">
                 <i class="fas fa-shield-alt me-1 text-dark"></i>
-              <h5 class="text-muted pe-1">Jackets</h5>
+                <h5 class="text-muted pe-1">Jackets</h5>
               <span class="helvetica-ligth">(Racing, Motocross Jerseys, Waterproof)</span>
             </div>
             <div class="row position-relative">
@@ -732,18 +739,20 @@ shield: <i class="fas fa-shield-alt"></i>-->
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
                   <div class="card">
-                      <img
-                        src="assets/alpineJacket.webp"
-                        class="card-img-top img-fluid"
-                        alt="jacket"
-                      />
+                      
+                          <img
+                            src="assets/alpineJacket.webp"
+                            class="card-img-top img-fluid"
+                            alt="jacket"
+                          />
+                          
                       <div class="card-body">
-                        <h5 class="card-title">Alpinestars Jacket Racing Gp Plus R V2 Airflow Black</h5>
+                        <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Alpinestars Jacket Racing Gp Plus R V2 Airflow Black</a></h5>
                         <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
                         <p class="card-text helvetica-ligth text-muted mb-1">
                           <span class="helvetica-Med text-muted"
-                            >FROM:</span
-                          >
+                          >FROM:</span>
+                          
                           San Francisco, US
                         </p>
                         <div class="card-shop">
@@ -754,18 +763,18 @@ shield: <i class="fas fa-shield-alt"></i>-->
                             data-bs-content="Add to Collection, Send Message, More details" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
                             <a href="#" class="card-link text-pink text-decoration-none">$450</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
-                  <div class="card">
+                    <div class="card">
                       <img
-                        src="/assets/alpineJacket.webp"
+                        src="assets/alpineJacket.webp"
                         class="card-img-top img-fluid"
                         alt="jacket"
                       />
                       <div class="card-body">
-                        <h5 class="card-title">Alpinestars Jacket Racing Gp Plus R V2 Airflow Black</h5>
+                        <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Alpinestars Jacket Racing Gp Plus R V2 Airflow Black</a></h5>
                         <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
                         <p class="card-text helvetica-ligth text-muted mb-1">
                           <span class="helvetica-Med text-muted"
@@ -781,22 +790,22 @@ shield: <i class="fas fa-shield-alt"></i>-->
                             data-bs-content="Add to Collection, Send Message, More details" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
                             <a href="#" class="card-link text-pink text-decoration-none">$550</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 </div>
                 <div class=" col-12 col-sm-6 col-md-4 col-lg-3 my-4">
-                  <div class="card" >
+                    <div class="card" >
                       <img
-                        src="/assets/alpineJacket.webp"
+                      src="assets/alpineJacket.webp"
                         class="card-img-top img-fluid"
                         alt="jacket"
-                      />
+                        />
                       <div class="card-body">
-                        <h5 class="card-title">Alpinestars Jacket Racing Gp Plus R V2 Airflow Black</h5>
+                        <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Alpinestars Jacket Racing Gp Plus R V2 Airflow Black</a></h5>
                         <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
                         <p class="card-text helvetica-ligth text-muted mb-1">
                           <span class="helvetica-Med text-muted"
-                            >FROM:</span
+                          >FROM:</span
                           >
                           San Francisco, US
                         </p>
@@ -809,21 +818,21 @@ shield: <i class="fas fa-shield-alt"></i>-->
                             <a href="#" class="card-link text-pink text-decoration-none">$750</a>
                         </div>
                       </div>
-                </div>
+                    </div>
                 </div>
                 <div class=" col-12 col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block my-4 ">
-                  <div class="card">
+                    <div class="card">
                       <img
-                        src="/assets/alpineJacket.webp"
+                        src="assets/alpineJacket.webp"
                         class="card-img-top img-fluid"
                         alt="boots"
                       />
                       <div class="card-body">
-                        <h5 class="card-title">Alpinestars Jacket Racing Gp Plus R V2 Airflow Black</h5>
+                          <h5 class="card-title"><a href="#" class="text-dark helvetica-ligth">Alpinestars Jacket Racing Gp Plus R V2 Airflow Black</a></h5>
                         <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
                         <p class="card-text helvetica-ligth text-muted mb-1">
                           <span class="helvetica-Med text-muted"
-                            >FROM:</span
+                          >FROM:</span
                           >
                           San Francisco, US
                         </p>
@@ -837,7 +846,7 @@ shield: <i class="fas fa-shield-alt"></i>-->
                         </div>
                       </div>
                 </div>
-                </div>
+            </div>
                
                     <div class="carousel-right-arrow">
                         <a class="carousel-right-arrow position-absolute top-50 d-none d-md-block " href="#">
@@ -845,15 +854,101 @@ shield: <i class="fas fa-shield-alt"></i>-->
                           </a>
                     </div>
                 
-            </div>
+                </div>
           </div>
           
-      </main>
-      <footer class="container-fluid m-0">
-        <div class="row container-fluid m-0"></div>
-        <div class="row container-fluid m-0"></div>
-      </footer>
+        </main>
     </div>
+      <footer class="container-fluid m-0 footer border-top pt-4">
+        <div class="row container-fluid m-0">
+            <div class="col-12 col-md-6 col-lg-3">
+                <a class="navbar-brand me-1 helvetica-bold text-muted" href="#"
+              ><i class="fas fa-motorcycle ps-0 p-2 fw-bold"></i>MOTORSHOP</a>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo non ex, nihil voluptates saepe ipsum animi ea facilis iste. Omnis numquam sed unde illum!</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-pink gotham-rounded footer-section-title">CATEGORIES</h4>
+                    </div>
+                    <div class="col-6">
+                        <ul class="footer-links list-unstyled">
+                            <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Touring</a></li>
+                                <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Sport</a></li>
+                                <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Enduro</a></li>
+                                <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Clothing</a></li>
+                                <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Mechanical</a></li>
+                                <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Kids</a></li>
+                            <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Other Accesories</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="footer-links list-unstyled">
+                            <li class="footer-item text-muted helvetica-ligth"><a class="text-muted" href="#">Touring</a></li>
+                                <li class="footer-item text-muted helvetica-ligth"><a class="text-muted" href="#">Sport</a></li>
+                                <li class="footer-item text-muted helvetica-ligth"><a class="text-muted" href="#">Enduro</a></li>
+                                <li class="footer-item text-muted helvetica-ligth"><a class="text-muted" href="#">Clothing</a></li>
+                                <li class="footer-item text-muted helvetica-ligth"><a class="text-muted" href="#">Mechanical</a></li>
+                            <li class="footer-item text-muted helvetica-ligth"><a class="text-muted" href="#">Kids</a></li>
+                            <li class="footer-item text-muted helvetica-ligth"><a class="text-muted" href="#">Other Accesories</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4 class="text-pink gotham-rounded footer-section-title">NAVIGATION</h4>
+
+                <ul class="footer-links list-unstyled">
+                    <li class="footer-item helvetica-ligth"><a class="text-muted" href="/index.html">Home</a></li>
+                        <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Sing In</a></li>
+                        <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Sign Up</a></li>
+                        <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">Terms & Conditions</a></li>
+                        <li class="footer-item helvetica-ligth"><a class="text-muted" href="#">FAQ</a></li>
+                    <li class="footer-item helvetica-ligth"><a class="text-muted"href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="row p-4 user-preferences">
+                    <div class="col-5 col-lg-6 g-0 text-center"><p class="text-pink">COUNTRY</p></div>
+                    <div class="col-5 col-lg-6 text-center"><button type="button" class="btn bg-light btn-lg border">Switzerland</button></div>
+                    <div class="col-5 col-lg-6 text-center"><p class="text-pink">LANGUAGE</p></div>
+                    <div class="col-5 col-lg-6 text-center"><button type="button" class="btn bg-light btn-lg border">English</button></div>
+                    <div class="col-5 col-lg-6 text-center"><p class="text-pink">CURRENCY</p></div>
+                    <div class="col-5 col-lg-6 text-center"><button type="button" class="btn bg-light btn-lg border">US Dollar</button></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row container-fluid m-0 copy-info border-top pt-2 ">
+            <div class="col-7 text-muted copy-right">
+                Copyright&copy; 2021 Zattix.com. All Rigths Reserved. Designed copied from Mohammed Awad. Implemented by Diego Hernandez.
+
+            </div>
+            <div class="col-3 ">
+                <ul class="list-unstyled social-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-yahoo text-muted pe-2 pe-md-0"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-google-plus-g text-muted pe-2 pe-md-0"></i></a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fab fa-linkedin-in text-muted pe-2 pe-md-0"></i>
+                      </a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fab fa-twitter text-muted pe-2 pe-md-0"></i>
+                      </a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f text-muted "></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </footer>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
 
 <!-- this is for local testing -->

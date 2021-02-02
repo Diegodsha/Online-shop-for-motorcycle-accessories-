@@ -37,9 +37,14 @@ body {
   max-width: 1331px;
 }
 
+.main-cont {
+  background-color: #f7f7f7;
+}
+
+/* nav */
+
 .header {
   z-index: 10;
-  font-family: helveticaMedium, sans-serif;
 }
 
 .search-head,
@@ -47,6 +52,14 @@ body {
   width: 18px;
   height: 16px;
   color: gray;
+}
+
+.gotham-bold {
+  font-family: gothamBold, sans-serif;
+}
+
+.gotham-rounded {
+  font-family: gothamRounded, sans-serif;
 }
 
 .helvetica-ligth {
@@ -69,12 +82,15 @@ body {
   color: #d53266;
 }
 
+/* search section */
+
 .store-name {
   font-size: 40px;
 }
 
 .form-item {
   height: 36px;
+  background-color: #ffff;
 }
 
 .search-head {
@@ -101,7 +117,7 @@ body {
 
 .arrow-left,
 .arrow-right {
-  background-color: #888;
+  background-color: #383838;
   color: #d53266;
   text-align: center;
   width: 35px;
@@ -118,10 +134,24 @@ body {
 .fa-plus-square {
   font-size: 27px;
   color: #888;
+  cursor: pointer;
 }
 
 .section-title {
   border-bottom: 1px solid #888;
+}
+
+.card img,
+.carousel img {
+  cursor: pointer;
+}
+
+.card-title a {
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  text-decoration: underline solid #d53266;
 }
 
 .card-shop {
@@ -139,4 +169,39 @@ body {
   width: 3%;
   right: -30px;
   font-size: 25px;
+}
+
+/* footer */
+.footer-section-title {
+  border-bottom: 1px solid #d53266;
+}
+
+.footer,
+.footer button {
+  font-size: 11px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+.copy-info {
+  justify-content: space-between;
+}
+
+.user-preferences p {
+  margin-top: 11px;
+}
+.user-preferences button {
+  width: 92px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
 }
