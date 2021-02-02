@@ -105,6 +105,11 @@ body {
 
 /* advertisements */
 
+.sticky {
+  position: sticky;
+  top: 65px;
+}
+
 .card-grid-12-3 {
   display: grid;
   grid-template-areas: "img text";
