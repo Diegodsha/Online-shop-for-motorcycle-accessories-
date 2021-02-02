@@ -1,7 +1,7 @@
 /* colors
 
 pink
-#d53266 
+#d53266
 grey
 #888888
 dark
@@ -64,6 +64,7 @@ body {
 .btn-pink {
   background-color: #d53266 !important;
 }
+
 .text-pink {
   color: #d53266;
 }
@@ -100,7 +101,7 @@ body {
 
 .arrow-left,
 .arrow-right {
-  background-color: #888888;
+  background-color: #888;
   color: #d53266;
   text-align: center;
   width: 35px;
@@ -116,11 +117,11 @@ body {
 
 .fa-plus-square {
   font-size: 27px;
-  color: #888888;
+  color: #888;
 }
 
 .section-title {
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #888;
 }
 
 .card-shop {
@@ -133,6 +134,7 @@ body {
   left: -4px;
   font-size: 25px;
 }
+
 .carousel-right-arrow {
   width: 3%;
   right: -30px;
