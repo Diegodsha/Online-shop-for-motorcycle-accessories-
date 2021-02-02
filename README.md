@@ -4,7 +4,7 @@
 
 > Project about building an online shop with client specifications and time deadlines for mobile, tablet and desktop versions.
 
-![Screenshot from 2021-01-26 16-52-25](...)
+![Screenshot from 2021-02-02 12-12-23](https://user-images.githubusercontent.com/70416006/106644016-28ba0200-6550-11eb-88df-a6e75386e574.png)
 
 In this project I created an online shop according with a client specifications of colors, fonts, layout and dealines stablished before.
 
@@ -12,6 +12,8 @@ In this project I created an online shop according with a client specifications 
 
 - HTML & CSS
 - Bootstrap
+- Grid
+- Flex-box
 
 ## Live Demo
 
