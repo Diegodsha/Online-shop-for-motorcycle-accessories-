@@ -31,13 +31,15 @@ colections: <i class="far fa-clone"></i>
 shop: <i class="fas fa-shopping-cart"></i>
 moto: <i class="fas fa-motorcycle"></i>
 mail: <i class="fas fa-envelope"></i>
-add: <i class="fas fa-plus-square"></i>-->
+add: <i class="fas fa-plus-square"></i>
+shoe: <i class="fas fa-shoe-prints"></i>
+shield: <i class="fas fa-shield-alt"></i>-->
     <div class="container-fluid main-cont g-0">
       <header class="position-sticky top-0 header">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3 px-lg-5">
           <div class="container-fluid">
             <a class="navbar-brand me-1" href="#"
-              ><i class="fas fa-motorcycle p-2 fw-bold"></i>MOTORSHOP</a
+              ><i class="fas fa-motorcycle ps-0 p-2 fw-bold"></i>MOTORSHOP</a
             >
 
             <button
@@ -61,7 +63,7 @@ add: <i class="fas fa-plus-square"></i>-->
                     ><i class="fas fa-home pe-2 text-pink"></i>HOME</a
                   >
                 </li>
-                <li class="nav-item pe-3">
+                <li class="nav-item pe-1">
                   <a class="nav-link d-flex" href="#"
                     ><i class="far fa-clone pe-2"></i>COLLECTIONS</a
                   >
@@ -81,7 +83,7 @@ add: <i class="fas fa-plus-square"></i>-->
                 </li>
               </ul>
               <div class="user-cont d-none d-lg-block">
-                <i class="fas fa-envelope fs-4"></i>
+                <i class="fas fa-envelope "></i>
                 <span class="text-secondary px-1">Jhon Doe</span>
                 <img
                   src="/assets/persona2.jpg"
@@ -145,7 +147,7 @@ add: <i class="fas fa-plus-square"></i>-->
       </section>
       <main class="container-fluid">
         <div class="row hot-ads pt-3 pb-3 container-fluid m-0 p-0">
-            <!-- add without carousel -->
+           
           <!-- <div class="col-1 d-flex align-items-center">
             <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
           </div> -->
@@ -394,6 +396,7 @@ add: <i class="fas fa-plus-square"></i>-->
                 </div>
               </div>
             </div>
+             <!-- add without carousel -->
             <!-- <div class="row">
               <div class="col-12 helvetica-Med text-muted">HOT ADS</div>
               <div class="col-6">
@@ -448,8 +451,9 @@ add: <i class="fas fa-plus-square"></i>-->
             <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
           </div> -->
         </div>
-        <div class="row container-fluid m-0">
-          <div class="col-12 d-flex section-title text-muted helvetica-Med">
+        <!-- helmet -->
+        <div class="row container-fluid m-0 mb-5">
+          <div class="col-12 d-flex section-title text-muted helvetica-Med pb-3">
             <img
               src="https://cdn3.iconfinder.com/data/icons/bold-f1/512/F1_3-512.png"
               alt="helmet"
@@ -460,9 +464,16 @@ add: <i class="fas fa-plus-square"></i>-->
             <h5 class="text-muted">Helmets</h5>
             <span class="helvetica-ligth">(Integral, Motocross, Folding)</span>
           </div>
-          <div class="row">
-              <div class="col-6 col-md-4 col-lg-3">
-                  .ca
+          <div class="row position-relative">
+              <div class="carousel-left-arrow">
+                  <a href="#" class="carousel-left-arrow position-absolute top-50 d-none d-md-block text-dark">
+                    <i
+                    class="fas fa-chevron-left "
+                  ></i>
+                  
+                  </a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
                 <div class="card">
                     <img
                       src="/assets/scorpionhelmet.webp"
@@ -485,7 +496,7 @@ add: <i class="fas fa-plus-square"></i>-->
                     </div>
               </div>
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
                 <div class="card">
                     <img
                       src="/assets/scorpionhelmet.webp"
@@ -508,8 +519,8 @@ add: <i class="fas fa-plus-square"></i>-->
                     </div>
               </div>
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
-                <div class="card">
+              <div class=" col-12 col-sm-6 col-md-4 col-lg-3 my-4">
+                <div class="card" >
                     <img
                       src="/assets/scorpionhelmet.webp"
                       class="card-img-top img-fluid"
@@ -531,7 +542,7 @@ add: <i class="fas fa-plus-square"></i>-->
                     </div>
               </div>
               </div>
-              <div class="col-6 col-md-4 col-lg-3 d-md-none d-lg-block">
+              <div class=" col-12 col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block my-4 ">
                 <div class="card">
                     <img
                       src="/assets/scorpionhelmet.webp"
@@ -554,14 +565,267 @@ add: <i class="fas fa-plus-square"></i>-->
                     </div>
               </div>
               </div>
+             
+                  <div class="carousel-right-arrow">
+                      <a class="carousel-right-arrow position-absolute top-50 d-none d-md-block " href="#">
+                          <i class="fas fa-chevron-right text-dark "></i>
+                        </a>
+                  </div>
+              
           </div>
         </div>
-        
-        
+        <!-- boots -->
+        <div class="row container-fluid m-0 mb-5">
+            <div class="col-12 d-flex section-title text-muted helvetica-Med pb-3">
+              <img
+                src="https://cdn3.iconfinder.com/data/icons/bold-f1/512/F1_3-512.png"
+                alt="helmet"
+                width="20px"
+                height="20px"
+                class="text-muted"
+              />
+              <h5 class="text-muted">Helmets</h5>
+              <span class="helvetica-ligth">(Integral, Motocross, Folding)</span>
+            </div>
+            <div class="row position-relative">
+                <div class="carousel-left-arrow">
+                    <a href="#" class="carousel-left-arrow position-absolute top-50 d-none d-md-block text-dark">
+                      <i
+                      class="fas fa-chevron-left "
+                    ></i>
+                    
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
+                  <div class="card">
+                      <img
+                        src="/assets/scorpionhelmet.webp"
+                        class="card-img-top img-fluid"
+                        alt="boots"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                        <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
+                        <p class="card-text helvetica-ligth text-muted mb-1">
+                          <span class="helvetica-Med text-muted"
+                            >FROM:</span
+                          >
+                          San Francisco, US
+                        </p>
+                        <div class="card-shop">
+                            <a href="#" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
+                            <a href="#" class="card-link text-pink text-decoration-none">$450</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
+                  <div class="card">
+                      <img
+                        src="/assets/scorpionhelmet.webp"
+                        class="card-img-top img-fluid"
+                        alt="boots"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                        <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
+                        <p class="card-text helvetica-ligth text-muted mb-1">
+                          <span class="helvetica-Med text-muted"
+                            >FROM:</span
+                          >
+                          San Francisco, US
+                        </p>
+                        <div class="card-shop">
+                            <a href="#" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
+                            <a href="#" class="card-link text-pink text-decoration-none">$550</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+                <div class=" col-12 col-sm-6 col-md-4 col-lg-3 my-4">
+                  <div class="card" >
+                      <img
+                        src="/assets/scorpionhelmet.webp"
+                        class="card-img-top img-fluid"
+                        alt="boots"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                        <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
+                        <p class="card-text helvetica-ligth text-muted mb-1">
+                          <span class="helvetica-Med text-muted"
+                            >FROM:</span
+                          >
+                          San Francisco, US
+                        </p>
+                        <div class="card-shop">
+                            <a href="#" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
+                            <a href="#" class="card-link text-pink text-decoration-none">$750</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+                <div class=" col-12 col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block my-4 ">
+                  <div class="card">
+                      <img
+                        src="/assets/scorpionhelmet.webp"
+                        class="card-img-top img-fluid"
+                        alt="boots"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                        <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
+                        <p class="card-text helvetica-ligth text-muted mb-1">
+                          <span class="helvetica-Med text-muted"
+                            >FROM:</span
+                          >
+                          San Francisco, US
+                        </p>
+                        <div class="card-shop">
+                            <a href="#" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
+                            <a href="#" class="card-link text-pink text-decoration-none">$950</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+               
+                    <div class="carousel-right-arrow">
+                        <a class="carousel-right-arrow position-absolute top-50 d-none d-md-block " href="#">
+                            <i class="fas fa-chevron-right text-dark "></i>
+                          </a>
+                    </div>
+                
+            </div>
+          </div>
+          
+        <!-- jackets -->
+        <div class="row container-fluid m-0 mb-5">
+            <div class="col-12 d-flex section-title text-muted helvetica-Med pb-3">
+              <img
+                src="https://cdn3.iconfinder.com/data/icons/bold-f1/512/F1_3-512.png"
+                alt="helmet"
+                width="20px"
+                height="20px"
+                class="text-muted"
+              />
+              <h5 class="text-muted">Helmets</h5>
+              <span class="helvetica-ligth">(Integral, Motocross, Folding)</span>
+            </div>
+            <div class="row position-relative">
+                <div class="carousel-left-arrow">
+                    <a href="#" class="carousel-left-arrow position-absolute top-50 d-none d-md-block text-dark">
+                      <i
+                      class="fas fa-chevron-left "
+                    ></i>
+                    
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
+                  <div class="card">
+                      <img
+                        src="/assets/scorpionhelmet.webp"
+                        class="card-img-top img-fluid"
+                        alt="boots"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                        <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
+                        <p class="card-text helvetica-ligth text-muted mb-1">
+                          <span class="helvetica-Med text-muted"
+                            >FROM:</span
+                          >
+                          San Francisco, US
+                        </p>
+                        <div class="card-shop">
+                            <a href="#" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
+                            <a href="#" class="card-link text-pink text-decoration-none">$450</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-4">
+                  <div class="card">
+                      <img
+                        src="/assets/scorpionhelmet.webp"
+                        class="card-img-top img-fluid"
+                        alt="boots"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                        <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
+                        <p class="card-text helvetica-ligth text-muted mb-1">
+                          <span class="helvetica-Med text-muted"
+                            >FROM:</span
+                          >
+                          San Francisco, US
+                        </p>
+                        <div class="card-shop">
+                            <a href="#" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
+                            <a href="#" class="card-link text-pink text-decoration-none">$550</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+                <div class=" col-12 col-sm-6 col-md-4 col-lg-3 my-4">
+                  <div class="card" >
+                      <img
+                        src="/assets/scorpionhelmet.webp"
+                        class="card-img-top img-fluid"
+                        alt="boots"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                        <p class="card-subtitle text-pink helvetica-Med mb-2">Used</p>
+                        <p class="card-text helvetica-ligth text-muted mb-1">
+                          <span class="helvetica-Med text-muted"
+                            >FROM:</span
+                          >
+                          San Francisco, US
+                        </p>
+                        <div class="card-shop">
+                            <a href="#" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
+                            <a href="#" class="card-link text-pink text-decoration-none">$750</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+                <div class=" col-12 col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block my-4 ">
+                  <div class="card">
+                      <img
+                        src="/assets/scorpionhelmet.webp"
+                        class="card-img-top img-fluid"
+                        alt="boots"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Motorcycle helmet Scorpion Exo R1 Black Mate Race-Street</h5>
+                        <p class="card-subtitle text-pink helvetica-Med mb-2">New</p>
+                        <p class="card-text helvetica-ligth text-muted mb-1">
+                          <span class="helvetica-Med text-muted"
+                            >FROM:</span
+                          >
+                          San Francisco, US
+                        </p>
+                        <div class="card-shop">
+                            <a href="#" class="card-link"><i class="fas fa-plus-square text-muted"></i></a>
+                            <a href="#" class="card-link text-pink text-decoration-none">$950</a>
+                        </div>
+                      </div>
+                </div>
+                </div>
+               
+                    <div class="carousel-right-arrow">
+                        <a class="carousel-right-arrow position-absolute top-50 d-none d-md-block " href="#">
+                            <i class="fas fa-chevron-right text-dark "></i>
+                          </a>
+                    </div>
+                
+            </div>
+          </div>
+          
       </main>
-      <footer>
-        <div class="row"></div>
-        <div class="row"></div>
+      <footer class="container-fluid m-0">
+        <div class="row container-fluid m-0"></div>
+        <div class="row container-fluid m-0"></div>
       </footer>
     </div>
 

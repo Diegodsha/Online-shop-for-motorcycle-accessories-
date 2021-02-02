@@ -33,12 +33,17 @@ dark
   src: url(fonts/HelveticaNeueBd.ttf);
 }
 
+body {
+  max-width: 1331px;
+}
+
 .header {
   z-index: 10;
   font-family: helveticaMedium, sans-serif;
 }
 
-.search-head .fa-envelope {
+.search-head,
+.fa-envelope {
   width: 18px;
   height: 16px;
   color: gray;
@@ -69,10 +74,6 @@ dark
 
 .form-item {
   height: 36px;
-}
-
-.purchase {
-  white-space: nowrap;
 }
 
 .search-head {
@@ -120,4 +121,15 @@ dark
 .card-shop {
   display: flex;
   justify-content: space-between;
+}
+
+.carousel-left-arrow {
+  width: 5%;
+  left: -4px;
+  font-size: 25px;
+}
+.carousel-right-arrow {
+  width: 3%;
+  right: -30px;
+  font-size: 25px;
 }
