@@ -114,6 +114,11 @@ body {
   color: #ffff;
 }
 
+.fa-plus-square {
+  font-size: 27px;
+  color: #888888;
+}
+
 .section-title {
   border-bottom: 1px solid #888888;
 }
