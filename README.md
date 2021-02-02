@@ -15,7 +15,7 @@ In this project I created an online shop according with a client specifications 
 
 ## Live Demo
 
-[Live Demo Link](...)
+[Live Demo Link](https://diegodsha.github.io/Online-shop-for-motorcycle-accessories-/)
 
 ## Authors
 

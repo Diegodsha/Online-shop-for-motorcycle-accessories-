@@ -112,3 +112,12 @@ dark
   border-radius: 50%;
   color: #ffff;
 }
+
+.section-title {
+  border-bottom: 1px solid #888888;
+}
+
+.card-shop {
+  display: flex;
+  justify-content: space-between;
+}
