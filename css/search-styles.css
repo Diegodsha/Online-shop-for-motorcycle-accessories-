@@ -96,17 +96,35 @@ body {
 .search-head {
   background-color: #d53266;
   background-image: url(/assets/—Pngtree—online\ store\ sending\ package\ illustration_5442558.png);
-  background-size: 17%;
+  background-size: 15%;
   background-repeat: no-repeat;
   font-family: helveticaLigth, sans-serif;
-  min-height: 300px;
+  background-position: right top;
+  min-height: 200px;
 }
 
-/* carousel-adds */
+/* advertisements */
 
-.carousel-control-prev,
-.carousel-control-next {
-  width: 50px !important;
+.card-grid-12-3 {
+  display: grid;
+  grid-template-areas: "img text";
+}
+
+.card-imgs {
+  grid-area: "img";
+}
+
+.card-text {
+  grid-area: "text";
+}
+
+.card-grid-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-grid-title h4 {
+  font-size: 14px;
 }
 
 .arrows {
@@ -123,30 +141,13 @@ body {
   width: 35px;
 }
 
-.fa-chevron-circle-left,
-.fa-chevron-circle-right {
-  font-size: 30px;
-  background-color: #d53266;
-  border-radius: 50%;
-  color: #ffff;
-}
-
 .fa-plus-square {
   font-size: 27px;
   color: #888;
   cursor: pointer;
 }
 
-.section-title {
-  border-bottom: 1px solid #888;
-}
-
-.card img,
-.carousel img {
-  cursor: pointer;
-}
-
-.card-title a {
+.footer a {
   text-decoration: none;
 }
 
@@ -157,12 +158,6 @@ body {
 .card-shop {
   display: flex;
   justify-content: space-between;
-}
-
-.carousel-left-arrow {
-  width: 5%;
-  left: -4px;
-  font-size: 25px;
 }
 
 .carousel-right-arrow {
@@ -181,10 +176,6 @@ body {
   font-size: 11px;
 }
 
-.footer a {
-  text-decoration: none;
-}
-
 .footer-item a:hover {
   text-decoration: underline;
 }
@@ -196,6 +187,7 @@ body {
 .user-preferences p {
   margin-top: 11px;
 }
+
 .user-preferences button {
   width: 92px;
 }
@@ -204,4 +196,28 @@ body {
   display: flex;
   justify-content: space-evenly;
   font-size: 16px;
+}
+
+/* tablet */
+
+@media only screen and (max-width: 768px) {
+  .search-head {
+    min-height: 300px;
+  }
+
+  .card-grid-12-3 {
+    display: grid;
+    grid-template-areas:
+      "img"
+      "text";
+  }
+
+  .card-imgs {
+    /* width: 223px; */
+    grid-area: "img";
+  }
+
+  .card-text {
+    grid-area: "text";
+  }
 }

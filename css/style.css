@@ -1,0 +1,208 @@
+/* colors
+
+pink
+#d53266
+grey
+#888888
+dark
+#383838
+*/
+
+@font-face {
+  font-family: gothamBold;
+  src: url(fonts/Gotham\ Bold\ Regular.ttf);
+}
+
+@font-face {
+  font-family: gothamRounded;
+  src: url(fonts/Gotham\ Rounded\ Light.otf);
+}
+
+@font-face {
+  font-family: helveticaLigth;
+  src: url(fonts/HelveticaNeue\ Light.ttf);
+}
+
+@font-face {
+  font-family: helveticaMedium;
+  src: url(fonts/HelveticaNeue\ Medium.ttf);
+}
+
+@font-face {
+  font-family: helveticaBold;
+  src: url(fonts/HelveticaNeueBd.ttf);
+}
+
+body {
+  max-width: 1380px;
+}
+
+.main-cont {
+  background-color: #f7f7f7;
+}
+
+/* nav */
+
+.header {
+  z-index: 10;
+}
+
+.search-head,
+.fa-envelope {
+  width: 18px;
+  height: 16px;
+  color: gray;
+}
+
+.gotham-bold {
+  font-family: gothamBold, sans-serif;
+}
+
+.gotham-rounded {
+  font-family: gothamRounded, sans-serif;
+}
+
+.helvetica-ligth {
+  font-family: helveticaLigth, sans-serif;
+}
+
+.helvetica-bold {
+  font-family: helveticaBold, sans-serif;
+}
+
+.helvetica-Med {
+  font-family: helveticaMedium, sans-serif;
+}
+
+.btn-pink {
+  background-color: #d53266 !important;
+}
+
+.text-pink {
+  color: #d53266;
+}
+
+/* search section */
+
+.store-name {
+  font-size: 40px;
+}
+
+.form-item {
+  height: 36px;
+  background-color: #ffff;
+}
+
+.search-head {
+  background-color: #d53266;
+  background-image: url(/assets/—Pngtree—online\ store\ sending\ package\ illustration_5442558.png);
+  background-size: 17%;
+  background-repeat: no-repeat;
+  font-family: helveticaLigth, sans-serif;
+  min-height: 300px;
+}
+
+/* carousel-adds */
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px !important;
+}
+
+.arrows {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.arrow-left,
+.arrow-right {
+  background-color: #383838;
+  color: #d53266;
+  text-align: center;
+  width: 35px;
+}
+
+.fa-chevron-circle-left,
+.fa-chevron-circle-right {
+  font-size: 30px;
+  background-color: #d53266;
+  border-radius: 50%;
+  color: #ffff;
+}
+
+.fa-plus-square {
+  font-size: 27px;
+  color: #888;
+  cursor: pointer;
+}
+
+.section-title {
+  border-bottom: 1px solid #888;
+}
+
+.card img,
+.carousel img {
+  cursor: pointer;
+}
+
+.card-title a {
+  text-decoration: none;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  text-decoration: underline solid #d53266;
+}
+
+.card-shop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-left-arrow {
+  width: 5%;
+  left: -4px;
+  font-size: 25px;
+}
+
+.carousel-right-arrow {
+  width: 3%;
+  right: -30px;
+  font-size: 25px;
+}
+
+/* footer */
+.footer-section-title {
+  border-bottom: 1px solid #d53266;
+}
+
+.footer,
+.footer button {
+  font-size: 11px;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+.copy-info {
+  justify-content: space-between;
+}
+
+.user-preferences p {
+  margin-top: 11px;
+}
+
+.user-preferences button {
+  width: 92px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
