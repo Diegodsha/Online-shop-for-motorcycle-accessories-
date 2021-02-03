@@ -38,3 +38,7 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](https://github.com/Diegodsha/Online-shop-for-motorcycle-accessories-/blob/main/LICENSE) licensed.
+
+## Credits
+
+Copyright© 2021 Zattix.com. All Rigths Reserved. Designed copied from Mohammed Awad.
