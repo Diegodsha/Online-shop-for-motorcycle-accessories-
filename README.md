@@ -4,7 +4,7 @@
 
 > Project about building an online shop with client specifications and time deadlines for mobile, tablet and desktop versions.
 
-![Screenshot from 2021-02-02 12-12-23](https://user-images.githubusercontent.com/70416006/106644016-28ba0200-6550-11eb-88df-a6e75386e574.png)
+![Screenshot from 2021-02-03 10-41-35](https://user-images.githubusercontent.com/70416006/106779470-a3e0ee00-660c-11eb-9642-f486ad9da0aa.png)
 
 In this project I created an online shop according with a client specifications of colors, fonts, layout and dealines stablished before.
 
