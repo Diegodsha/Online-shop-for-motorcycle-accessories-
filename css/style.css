@@ -1,13 +1,3 @@
-/* colors
-
-pink
-#d53266
-grey
-#888888
-dark
-#383838
-*/
-
 @font-face {
   font-family: gothamBold;
   src: url(/fonts/GothamBoldRegular.ttf);
@@ -25,12 +15,12 @@ dark
 
 @font-face {
   font-family: helveticaMedium;
-  src: url(fonts/HelveticaNeueMedium);
+  src: url(/fonts/HelveticaNeueMedium.ttf);
 }
 
 @font-face {
   font-family: helveticaBold;
-  src: url(fonts/HelveticaNeueBd.ttf);
+  src: url(/fonts/HelveticaNeueBd.ttf);
 }
 
 body {
@@ -205,4 +195,14 @@ body {
   display: flex;
   justify-content: space-evenly;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .store-name {
+    font-size: 35px;
+  }
+
+  .search-head {
+    min-height: 317px;
+  }
 }

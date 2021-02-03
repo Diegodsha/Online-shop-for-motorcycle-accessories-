@@ -1,13 +1,3 @@
-/* colors
-
-pink
-#d53266
-grey
-#888888
-dark
-#383838
-*/
-
 @font-face {
   font-family: gothamBold;
   src: url(/fonts/GothamBoldRegular.ttf);
@@ -36,11 +26,11 @@ dark
 body {
   max-width: 1380px;
 }
+
 .main-cont {
   background-color: #f7f7f7;
 }
 
-.main-co
 .header {
   z-index: 10;
 }
@@ -51,30 +41,35 @@ body {
   height: 16px;
   color: gray;
 }
+
 .gotham-bold {
   font-family: gothamBold, sans-serif;
 }
+
 .gotham-rounded {
   font-family: gothamRounded, sans-serif;
 }
+
 .helvetica-ligth {
   font-family: helveticaLigth, sans-serif;
 }
+
 .helvetica-bold {
   font-family: helveticaBold, sans-serif;
 }
+
 .helvetica-Med {
   font-family: helveticaMedium, sans-serif;
 }
+
 .btn-pink {
   background-color: #d53266 !important;
 }
+
 .text-pink {
   color: #d53266;
 }
 
-.text-pink {
-  colo
 .store-name {
   font-size: 40px;
 }
@@ -92,11 +87,12 @@ body {
   font-family: helveticaLigth, sans-serif;
   min-height: 200px;
 }
-  background-size: c
+
 .sticky {
   position: sticky;
   top: 65px;
 }
+
 .card-grid-12-3 {
   display: grid;
   grid-template-areas: "img text";
@@ -110,11 +106,13 @@ body {
 .card-grid-title h4 {
   font-size: 14px;
 }
+
 .arrows {
   position: absolute;
   bottom: 0;
   right: 0;
 }
+
 .arrow-left,
 .arrow-right {
   background-color: #383838;
@@ -122,28 +120,26 @@ body {
   text-align: center;
   width: 35px;
 }
+
 .fa-plus-square {
   font-size: 27px;
   color: #888;
   cursor: pointer;
 }
+
 .footer a {
   text-decoration: none;
 }
+
 .card-title a:hover {
   text-decoration: underline solid #d53266;
 }
+
 .card-shop {
   display: flex;
   justify-content: space-between;
 }
 
-.carousel-right-arrow {
-  width: 3%;
-  right: -30px;
-  font-size: 25px;
-}
-  width: 3%;
 .footer-section-title {
   border-bottom: 1px solid #d53266;
 }
@@ -156,25 +152,34 @@ body {
 .footer-item a:hover {
   text-decoration: underline;
 }
+
 .copy-info {
   justify-content: space-between;
 }
+
 .user-preferences p {
   margin-top: 11px;
 }
+
 .user-preferences button {
   width: 92px;
 }
+
 .social-icons {
   display: flex;
   justify-content: space-evenly;
   font-size: 16px;
 }
-  display: f
+
 @media only screen and (max-width: 768px) {
-  .search-head {
-    min-height: 300px;
+  .store-name {
+    font-size: 35px;
   }
+
+  .search-head {
+    min-height: 317px;
+  }
+
   .card-grid-12-3 {
     display: grid;
     grid-template-areas:
