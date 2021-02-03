@@ -94,11 +94,6 @@ body {
 
 /* carousel-adds */
 
-.carousel-control-prev,
-.carousel-control-next {
-  width: 50px !important;
-}
-
 .arrows {
   position: absolute;
   bottom: 0;
