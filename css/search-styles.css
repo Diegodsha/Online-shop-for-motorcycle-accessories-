@@ -95,11 +95,9 @@ body {
 
 .search-head {
   background-color: #d53266;
-  background-image: url(/assets/online-store.png);
-  background-size: 15%;
+  background-image: url(/assets/gradient.png);
   background-repeat: no-repeat;
   font-family: helveticaLigth, sans-serif;
-  background-position: right top;
   min-height: 200px;
 }
 
