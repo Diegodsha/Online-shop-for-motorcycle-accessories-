@@ -90,13 +90,14 @@ body {
 
 .form-item {
   height: 36px;
-  background-color: #ffff;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .search-head {
   background-color: #d53266;
-  background-image: url(/assets/gradient.png);
+  background-image: url(/assets/tire.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
   font-family: helveticaLigth, sans-serif;
   min-height: 300px;
 }
