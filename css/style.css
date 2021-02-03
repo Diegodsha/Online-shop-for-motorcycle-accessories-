@@ -10,22 +10,22 @@ dark
 
 @font-face {
   font-family: gothamBold;
-  src: url(fonts/Gotham\ Bold\ Regular.ttf);
+  src: url(/fonts/GothamBoldRegular.ttf);
 }
 
 @font-face {
   font-family: gothamRounded;
-  src: url(fonts/Gotham\ Rounded\ Light.otf);
+  src: url(/fonts/GothamRoundedLight.otf);
 }
 
 @font-face {
   font-family: helveticaLigth;
-  src: url(fonts/HelveticaNeue\ Light.ttf);
+  src: url(/fonts/HelveticaNeueLight.ttf);
 }
 
 @font-face {
   font-family: helveticaMedium;
-  src: url(fonts/HelveticaNeue\ Medium.ttf);
+  src: url(fonts/HelveticaNeueMedium);
 }
 
 @font-face {
