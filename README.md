@@ -2,11 +2,11 @@
 
 # Online shop for motorcycle accessories
 
-> Project about building an online shop with client specifications and time deadlines for mobile, tablet and desktop versions.
+> Project about building an online shop with client specifications and time deadlines for mobile, tablet and, desktop versions.
 
 ![Screenshot from 2021-02-03 10-41-35](https://user-images.githubusercontent.com/70416006/106779470-a3e0ee00-660c-11eb-9642-f486ad9da0aa.png)
 
-In this project I created an online shop according with a client specifications of colors, fonts, layout and dealines stablished before.
+In this project, I created an online shop according to a client's specifications of colors, fonts, layout, and deadlines established before.
 
 ## Built With
 
@@ -18,6 +18,8 @@ In this project I created an online shop according with a client specifications 
 ## Live Demo
 
 [Live Demo Link](https://diegodsha.github.io/Online-shop-for-motorcycle-accessories-/)
+
+[Presentation Video](https://www.loom.com/share/2903c4484b194b32bf692d1304a9eff5?sharedAppSource=personal_library)
 
 ## Authors
 
