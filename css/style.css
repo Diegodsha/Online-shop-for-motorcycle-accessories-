@@ -23,10 +23,6 @@
   src: url(/fonts/HelveticaNeueBd.ttf);
 }
 
-body {
-  max-width: 1380px;
-}
-
 .main-cont {
   background-color: #f7f7f7;
 }
@@ -37,7 +33,6 @@ body {
   z-index: 10;
 }
 
-.search-head,
 .fa-envelope {
   width: 18px;
   height: 16px;
@@ -65,7 +60,7 @@ body {
 }
 
 .btn-pink {
-  background-color: #d53266 !important;
+  background-color: #d53266;
 }
 
 .text-pink {
@@ -149,14 +144,12 @@ body {
 }
 
 .carousel-left-arrow {
-  width: 5%;
-  left: -4px;
+  left: -8px;
   font-size: 25px;
 }
 
 .carousel-right-arrow {
-  width: 3%;
-  right: -30px;
+  right: -8px;
   font-size: 25px;
 }
 
