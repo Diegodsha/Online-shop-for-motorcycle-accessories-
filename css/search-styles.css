@@ -27,6 +27,7 @@
   background-color: #f7f7f7;
 }
 
+/* nav */
 .header {
   z-index: 10;
 }
@@ -65,6 +66,7 @@
   color: #d53266;
 }
 
+/* search section */
 .store-name {
   font-size: 40px;
 }
@@ -83,6 +85,7 @@
   min-height: 200px;
 }
 
+/* main */
 .sticky {
   position: sticky;
   top: 65px;
@@ -112,7 +115,6 @@
 .arrow-right {
   background-color: #383838;
   color: #d53266;
-  text-align: center;
   width: 35px;
 }
 
