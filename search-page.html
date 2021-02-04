@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/search-styles.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -12,11 +11,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/search-styles.css" />
 
     <title>MotorShop</title>
   </head>
   <body>
-    <div class="container-fluid main-cont g-0 pb-5">
+    <div class="container-fluid container-xxl main-cont g-0 pb-5">
       <header class="position-sticky top-0 header helvetica-Med">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3 px-lg-5">
           <div class="container-fluid">
@@ -80,61 +80,61 @@
           </div>
         </nav>
       </header>
-      <section
-        class="row container-fluid m-0 justify-content-center search-head text-white py-4"
-      >
-        <div class="col-9 col-md-11 text-start">
-          <h1 class="fw-bold store-name helvetica-bold">MOTORSHOP</h1>
-          <p>Search around 124,000 Items are waiting to be sold!</p>
-        </div>
-        <div class="row justify-content-center">
-          <div
-            class="col-9 col-md-3 d-flex justify-content-center p-0 form-item me-1"
-          >
-            <form class="w-100" action="search-page.html">
-              <select class="form-item department rounded-0 d-block w-100">
-                <option>All Departments</option>
-                <option>Helmets</option>
-                <option>Boots</option>
-                <option>Gloves</option>
-                <option>Jackets</option>
-                <option>Other</option>
-              </select>
-            </form>
+      <section class="container-fluid g-0">
+        <div class="row m-0 justify-content-center search-head text-white py-4">
+          <div class="col-9 col-md-11 text-start">
+            <h1 class="fw-bold store-name helvetica-bold">MOTORSHOP</h1>
+            <p>Search around 124,000 Items are waiting to be sold!</p>
           </div>
-          <div class="col-9 col-md-3 p-0 me-1">
-            <input
-              type="text"
-              minlength="5"
-              maxlength="15"
-              required
-              class="w-100 rounded-0 border form-item"
-              placeholder="What do you search for?"
-            />
-          </div>
-          <div class="col-9 col-md-3 p-0 me-1">
-            <input
-              type="text"
-              minlength="5"
-              maxlength="15"
-              required
-              class="w-100 rounded-0 border form-item"
-              placeholder="Location"
-            />
-          </div>
-          <div class="col-9 col-md-2 p-0 me-1">
-            <form action="search-page.html">
-              <button
-                type="submit"
-                class="search-btn btn btn-dark rounded-0 px-3 w-100 rounded-0 border-0"
-              >
-                Search
-              </button>
-            </form>
+          <div class="row justify-content-center">
+            <div
+              class="col-9 col-md-3 d-flex justify-content-center p-0 form-item me-1"
+            >
+              <form class="w-100" action="search-page.html">
+                <select class="form-item department rounded-0 d-block w-100">
+                  <option>All Departments</option>
+                  <option>Helmets</option>
+                  <option>Boots</option>
+                  <option>Gloves</option>
+                  <option>Jackets</option>
+                  <option>Other</option>
+                </select>
+              </form>
+            </div>
+            <div class="col-9 col-md-3 p-0 me-1">
+              <input
+                type="text"
+                minlength="5"
+                maxlength="15"
+                required
+                class="w-100 rounded-0 border form-item"
+                placeholder="What do you search for?"
+              />
+            </div>
+            <div class="col-9 col-md-3 p-0 me-1">
+              <input
+                type="text"
+                minlength="5"
+                maxlength="15"
+                required
+                class="w-100 rounded-0 border form-item"
+                placeholder="Location"
+              />
+            </div>
+            <div class="col-9 col-md-2 p-0 me-1">
+              <form action="search-page.html">
+                <button
+                  type="submit"
+                  class="search-btn btn btn-dark rounded-0 px-3 w-100 rounded-0 border-0"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
-      <section class="row container-fluid m-0 p-0">
+      <main class="row container-fluid m-0 p-0">
         <div class="col-12 col-md-3 ps-4 p-0 border checkBox">
           <div class="sticky">
             <form class="checkBox1 pe-2">
@@ -616,11 +616,11 @@
             <button class="btn border mx-1 text-muted fw-bold">7</button>
           </div>
         </div>
-      </section>
+      </main>
     </div>
-    <footer class="container-fluid m-0 footer border-top pt-4">
+    <footer class="container-fluid container-xxl footer border-top pt-4">
       <div class="row container-fluid m-0 g-0">
-        <div class="col-12 col-md-6 col-lg-3 px-4">
+        <div class="col-12 col-md-6 col-lg-3 px-2 px-md-4">
           <a class="navbar-brand me-1 helvetica-bold text-muted" href="#"
             ><i class="fas fa-motorcycle ps-0 p-2 fw-bold"></i>MOTORSHOP</a
           >
@@ -630,7 +630,7 @@
             numquam sed unde illum!
           </p>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 px-4">
+        <div class="col-12 col-md-6 col-lg-3 px-2 px-md-4">
           <div class="row">
             <div class="col-12">
               <h4 class="text-pink gotham-rounded footer-section-title">
@@ -689,7 +689,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 px-4">
+        <div class="col-12 col-md-6 col-lg-3 px-2 px-md-4">
           <h4 class="text-pink gotham-rounded footer-section-title">
             NAVIGATION
           </h4>
@@ -745,7 +745,7 @@
         </div>
       </div>
       <div class="row container-fluid m-0 copy-info border-top pt-2 g-0">
-        <div class="col-7 text-muted copy-right">
+        <div class="col-8 col-sm-9 text-muted copy-right ps-2 ps-md-4">
           Copyright&copy; 2021 Zattix.com. All Rigths Reserved. Designed copied
           from Mohammed Awad. Implemented by Diego Hernandez.
         </div>
