@@ -96,6 +96,10 @@
   grid-template-areas: "img text";
 }
 
+.card-imgs img {
+  border-radius: 1.1rem;
+}
+
 .card-grid-title {
   display: flex;
   justify-content: space-between;
@@ -109,6 +113,10 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.arrow-right {
+  border-radius: 0 0 1.1rem;
 }
 
 .arrow-left,

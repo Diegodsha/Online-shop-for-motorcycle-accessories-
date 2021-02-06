@@ -95,6 +95,10 @@
   right: 0;
 }
 
+.arrow-right {
+  border-radius: 0 0 1.1rem;
+}
+
 .arrow-left,
 .arrow-right {
   background-color: #383838;
@@ -122,9 +126,14 @@
   border-bottom: 1px solid #888;
 }
 
+.card {
+  border-radius: 1.1rem;
+}
+
 .card img,
 .carousel img {
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .card-title a {
